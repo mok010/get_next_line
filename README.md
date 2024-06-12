@@ -18,6 +18,10 @@
 |  외부함수   |                   read, malloc, free               |
 |     설명         |              파일 디스크럽터로부터 읽어 온 하나의 라인(newline 없이)을 반환하는 함수 작성 <br> Write a function which returns a line read from a file descriptor, without the newline                |
 
+
+## **_bonus가 붙은 파일과 붙지않은 파일의 차이**
+
+-  붙은 파일은 복수의 파일을 가져와도 중간에 어디까지 읽었는지를 저장해, 여러 파일을 사용 할 수 있도록 한 모델이고, 붙지 않은 파일은 단일 파일만을 사용할 수 있도록 한 모델이다.
 -------------------
 
 ## ** 파일 디스크립터(fd)**
