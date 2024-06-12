@@ -10,8 +10,10 @@
 | :---------------------------------------------------------: | :-----------------------------------------------------------------------------------: |
 |   프로토타입     |       int get_next_line(int fd, char **line);                |
 |  제출할 파일   |        get_next_line.c, get_next_line_utils.c, get_next_line.h              |
-|  매개변수   |       1. 프로그림이 읽을 파일 디스크립터(file descriptor for readinf)\n#2. 읽어왔던 값(The value od what has been read)          |
-|  리턴 값   |        Android         |            1 : 한 라인이 읽혔을 떄(A line has been read)\n0 : EOF에 도달했을 때(EOF has been reached)\n-1 : 에러가 발생했을 떄(An error happened)                 |
+|  매개변수   |       1. 프로그림이 읽을 파일 디스크립터(file descriptor for readinf)
+#2. 읽어왔던 값(The value od what has been read)          |
+|  리턴 값   |        Android         |            1 : 한 라인이 읽혔을 떄(A line has been read)
+0 : EOF에 도달했을 때(EOF has been reached)\n-1 : 에러가 발생했을 떄(An error happened)                 |
 |  외부함수   |        Android         |              read, malloc, free               |
 |     설명         |              파일 디스크럽터로부터 읽어 온 하나의 라인(newline 없이)을 반환하는 함수 작성\n
 Write a function which returns a line read from a file descriptor, without the newline                |
